@@ -180,7 +180,7 @@ public class SolarSystemView : MonoBehaviour {
         {
             if(o.Key.OrbitalObjectType != Orbital.ObjectTypes.Asteroid && o.Key.OrbitalObjectType != Orbital.ObjectTypes.Sun && o.Key.OrbitalObjectType != Orbital.ObjectTypes.AsteroidBelt && o.Key.OrbitalObjectType != Orbital.ObjectTypes.Moon)
             {
-                Debug.Log(o.Key.ToString() + ", " + o.Value.name.ToString());
+                //Debug.Log(o.Key.ToString() + ", " + o.Value.name.ToString());
                 //Debug.Log(o.Key + " " + o.Key.OrbitalObjectType.ToString());
                 ulong rad = o.Key.OrbitalDistance;
 
@@ -209,7 +209,7 @@ public class SolarSystemView : MonoBehaviour {
                     lineRenderer.endWidth = 0.1f;
                 }
                 
-                lineRenderer.numPositions = size;
+                lineRenderer.positionCount = size;
 
                 int i = 0;
                 for (float theta = 0; theta < 2 * Mathf.PI; theta += 0.1f)
@@ -225,7 +225,7 @@ public class SolarSystemView : MonoBehaviour {
                     i += 1;
                 }
 
-                lineRenderer.SetPosition(lineRenderer.numPositions - 1, lineRenderer.GetPosition(0));
+                lineRenderer.SetPosition(lineRenderer.positionCount - 1, lineRenderer.GetPosition(0));
             }
         }            
     }
