@@ -1,0 +1,19 @@
+<ProjectInfo Version="1">
+  <Signature>D53C04E6B823186FA2948B814FA7888707018D99B5BF7BC1BF227ABE4C7CD0EC</Signature>
+  <Content>
+    <Project Guid="7614ffcf-81fa-4b15-aa43-76fa4bcf6854">
+      <DisplayName Value="SpaceCivSim"/>
+      <DetailName Value=""/>
+      <MainProjectGuid Value="b9b62d26-b9e0-44bf-b305-9201a27d8f1d"/>
+      <IconType Value="0"/>
+      <IdProjectIcon Value="00000000-0000-0000-0000-000000000000"/>
+      <ScmProviderGuid Value="0745c2ee-abe3-451b-934e-7f597f56c0d7"/>
+      <ScmConfiguration Value=""/>
+      <CreationTimeStamp Value="636293149900010521"/>
+      <PartitionHash Value="711E42F4EF4CD79ECC4BE47E04FC851F37DB6B5AB277A30FDD9FABB426A0E8C8"/>
+      <SaveFileVersion Value="53"/>
+      <ProjectType Value="0"/>
+      <IsOnlineProject Value="False"/>
+    </Project>
+  </Content>
+</ProjectInfo>
